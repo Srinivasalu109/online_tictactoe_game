@@ -1,0 +1,22 @@
+.replay{
+
+   display: flex;
+}
+.result{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.replay h4{
+    background-color: black;
+    height: 60px;
+    width: 100px;
+    padding-left:10px ;
+    padding-top: 13px;
+    color: white;
+    margin: 10px;
+}
+.result h3{
+   text-align: center;
+}

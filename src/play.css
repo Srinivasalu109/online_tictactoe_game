@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+}
+.grid{
+    background-color: black;
+    width:10vw;
+    height:10vw;
+    min-width: 80px;
+    min-height: 80px; 
+    opacity: 0.7;
+    margin: 1px;
+}
+.not-allowed     { cursor: not-allowed; }
+.value{
+    display: flex;
+    color: white;
+    /* text-align: center; */
+    height: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  @media(max-width:426px){
+      .value{
+/* color: blue; */
+margin-top: 20px;
+      }
+  }

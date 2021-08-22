@@ -1,0 +1,16 @@
+.backColor1{
+    background-color: black;
+    height: 610px;
+    width: 100%;
+}
+
+.b{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

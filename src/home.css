@@ -1,0 +1,15 @@
+.homeBackground{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.buttonGroup{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.second{
+    margin-left: 20px;
+}
