@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import { useParams } from "react-router"
 import "./replay.css"
 import { useHistory } from 'react-router-dom';

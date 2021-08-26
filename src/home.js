@@ -1,7 +1,7 @@
 import "./home.css"
 import {Button} from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
-import { socket } from "./App";
+// import { socket } from "./App";
 export default function Home(){
   const history=useHistory(null)
     return(<div className="homeBackground">

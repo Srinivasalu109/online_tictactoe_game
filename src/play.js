@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import "./play.css"
 import { socket } from "./App";
 import { useState, useEffect } from "react";
@@ -9,11 +10,12 @@ export default function Play() {
     var gameBoard = [["", "", ""],
     ["", "", ""],
     ["", "", ""]]
+
     const { id } = useParams()
+    const myID= id
     const [oppenentID, setOpponentID] = useState("")
     const [loading, setLoading] = useState(true)
     const [myvalue, setMyvalue] = useState("")
-    const [myID, setMyID] = useState(id)
     const [isMyturn, setMyturn] = useState(false)
     const [count, setCount] = useState(0)
     const [flag, setFlag] = useState(false)
@@ -32,6 +34,7 @@ export default function Play() {
             }
         }
     }
+
     useEffect(() => {
          if (!navigator.onLine) {
             alert("you lose the connection!")
@@ -84,6 +87,8 @@ export default function Play() {
         })
         setLoading(false)
     }, [count, history])
+
+    
     return (
         <div className="center">
             {
