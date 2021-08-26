@@ -1,6 +1,6 @@
 /*eslint-disable*/
-import "./play.css"
-import { socket } from "./App";
+import "../styles/play.css"
+import { socket } from "../App";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { useHistory } from 'react-router-dom';

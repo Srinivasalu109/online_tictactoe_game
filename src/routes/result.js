@@ -1,8 +1,8 @@
 /*eslint-disable*/
 import { useParams } from "react-router"
-import "./replay.css"
+import "../styles/replay.css"
 import { useHistory } from 'react-router-dom';
-import { socket } from "./App";
+import { socket } from "../App";
 import { useEffect } from "react";
 export default function Replay() {
     const history = useHistory()

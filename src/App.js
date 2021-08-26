@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Home from "./home"
-import Create from "./create";
-import Join from "./join"
-import Play from "./play";
+import Home from "./routes/home"
+import Create from "./routes/create";
+import Join from "./routes/join"
+import Play from "./routes/play";
 import { io } from "socket.io-client"
-import Replay from './result';
+import Replay from './routes/result';
 export const socket = io("http://localhost:4000")
 export default function App() {
     return (<div>

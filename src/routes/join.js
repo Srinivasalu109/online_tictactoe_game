@@ -1,9 +1,9 @@
 /*eslint-disable*/
 import { TextField,Button } from '@material-ui/core';
 import { useState,useEffect } from 'react';
-import { socket } from './App';
+import { socket } from '../App';
 import { useHistory } from 'react-router-dom';
-import "./join.css"
+import "../styles/join.css"
 export default function Join(){
     const history=useHistory(null)
     const[roomName,setRoom]=useState(" ")

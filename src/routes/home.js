@@ -1,4 +1,4 @@
-import "./home.css"
+import "../styles/home.css"
 import {Button} from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
 // import { socket } from "./App";

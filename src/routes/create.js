@@ -1,8 +1,8 @@
 import { TextField, Button } from '@material-ui/core';
-import "./create.css"
+import "../styles/create.css"
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { socket } from "./App";
+import { socket } from "../App";
 export default function Create() {
     const [roomName, setRoomName] = useState(' ')
     const history = useHistory(null)
